@@ -1,5 +1,8 @@
 public class Phone extends Catalog implements SmsSend, Mobile, Device {
 
+    //  Dependency Inversion Principle - разделив интерфейсы мы не зависим от их общей функциональности,
+    //  и появляется возможность поменять один интерфейс на другой
+
 
     private final String name = "Телефон";
     private final int price = 25000;

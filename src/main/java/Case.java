@@ -1,4 +1,6 @@
 public class Case extends Catalog implements Accessories {
+    // Single Responsibility Principle - класс Case описывает только чехол, а не все товары;
+
     private final String name = "Чехол";
     private final int price = 790;
 

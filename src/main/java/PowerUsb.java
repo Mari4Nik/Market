@@ -1,5 +1,7 @@
 public class PowerUsb extends Catalog implements Accessories, Device {
 
+//  Interface Segregation Principle - применяем разные интерфейсы вместо одного большого
+
     private final String name = "Зарядное устройство";
     private final int price = 3500;
 
